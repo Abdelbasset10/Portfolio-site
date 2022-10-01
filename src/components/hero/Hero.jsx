@@ -5,13 +5,12 @@ import {SiUpwork} from 'react-icons/si'
 
 
 import boy from '../../images/boy.png'
-import vector1 from '../../images/Vector1.png'
 import vector2 from '../../images/Vector2.png'
 import github from '../../images/github.png'
 import linkedIn from '../../images/linkedin.png'
-import instagram from '../../images/instagram.png'
 import glasses1 from '../../images/glassesimoji.png'
 import crown from '../../images/crown.png'
+import like from '../../images/thumbup.png'
 
 const Hero = () => {
     const dark = useSelector((state)=>state.darkMode)
@@ -49,9 +48,10 @@ const Hero = () => {
             <div className='absolute -top-16 right-0 sm:right-0 md:top-0 lg:-top-8 xl:top-0 md:-right-8 lg:right-0 shadow-lg  rounded-xl	bg-white animate-waving-hand		 	'>
                 <Share photo={crown} skill='Web Devoloper'  />
             </div>
-            <div className='absolute -bottom-4 left-28 md:left-8 md:bottom-0 lg:bottom-2 lg:left-20 xl:-bottom-3 xl:left-32 shadow-lg  rounded-xl	bg-white 	'>
-                <Share photo={crown} skill='Web Devoloper'  />
+            <div className='absolute bottom-2 left-16 sm:left-28 sm:-bottom-4 md:left-8 md:bottom-0 lg:bottom-2 xl:-bottom-6 lg:left-20 xl:-bottom-3 xl:left-32 shadow-lg  rounded-xl animate-waving-hand bg-white '>
+                <Share photo={like} skill='Web Devoloper'  />
             </div>
+             
              
            
             
